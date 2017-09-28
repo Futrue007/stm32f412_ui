@@ -1,0 +1,4 @@
+---- HAL_TIM_OnePulse_Init Matches (3 in 2 files) ----
+Stm32f4xx_hal_tim.c (drivers\stm32f4xx_hal_driver\src):         (++) HAL_TIM_OnePulse_Init and HAL_TIM_OnePulse_ConfigChannel: to use the Timer 
+Stm32f4xx_hal_tim.c (drivers\stm32f4xx_hal_driver\src):HAL_StatusTypeDef HAL_TIM_OnePulse_Init(TIM_HandleTypeDef *htim, uint32_t OnePulseMode)
+Stm32f4xx_hal_tim.h (drivers\stm32f4xx_hal_driver\inc):HAL_StatusTypeDef HAL_TIM_OnePulse_Init(TIM_HandleTypeDef *htim, uint32_t OnePulseMode);
