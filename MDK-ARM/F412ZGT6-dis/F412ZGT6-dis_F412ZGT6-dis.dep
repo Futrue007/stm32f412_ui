@@ -1,0 +1,1517 @@
+Dependencies for Project 'F412ZGT6-dis', Target 'F412ZGT6-dis': (DO NOT MODIFY !)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_pwr_ex.o --omf_browse f412zgt6-dis\stm32f4xx_hal_pwr_ex.crf --depend f412zgt6-dis\stm32f4xx_hal_pwr_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_gpio.o --omf_browse f412zgt6-dis\stm32f4xx_hal_gpio.crf --depend f412zgt6-dis\stm32f4xx_hal_gpio.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_rtc_ex.o --omf_browse f412zgt6-dis\stm32f4xx_hal_rtc_ex.crf --depend f412zgt6-dis\stm32f4xx_hal_rtc_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_tim_ex.o --omf_browse f412zgt6-dis\stm32f4xx_hal_tim_ex.crf --depend f412zgt6-dis\stm32f4xx_hal_tim_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_flash_ramfunc.o --omf_browse f412zgt6-dis\stm32f4xx_hal_flash_ramfunc.crf --depend f412zgt6-dis\stm32f4xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_rcc.o --omf_browse f412zgt6-dis\stm32f4xx_hal_rcc.crf --depend f412zgt6-dis\stm32f4xx_hal_rcc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_flash_ex.o --omf_browse f412zgt6-dis\stm32f4xx_hal_flash_ex.crf --depend f412zgt6-dis\stm32f4xx_hal_flash_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_cortex.o --omf_browse f412zgt6-dis\stm32f4xx_hal_cortex.crf --depend f412zgt6-dis\stm32f4xx_hal_cortex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal.o --omf_browse f412zgt6-dis\stm32f4xx_hal.crf --depend f412zgt6-dis\stm32f4xx_hal.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_pwr.o --omf_browse f412zgt6-dis\stm32f4xx_hal_pwr.crf --depend f412zgt6-dis\stm32f4xx_hal_pwr.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_tim.o --omf_browse f412zgt6-dis\stm32f4xx_hal_tim.crf --depend f412zgt6-dis\stm32f4xx_hal_tim.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_flash.o --omf_browse f412zgt6-dis\stm32f4xx_hal_flash.crf --depend f412zgt6-dis\stm32f4xx_hal_flash.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_uart.o --omf_browse f412zgt6-dis\stm32f4xx_hal_uart.crf --depend f412zgt6-dis\stm32f4xx_hal_uart.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_rcc_ex.o --omf_browse f412zgt6-dis\stm32f4xx_hal_rcc_ex.crf --depend f412zgt6-dis\stm32f4xx_hal_rcc_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_dma_ex.o --omf_browse f412zgt6-dis\stm32f4xx_hal_dma_ex.crf --depend f412zgt6-dis\stm32f4xx_hal_dma_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_rtc.o --omf_browse f412zgt6-dis\stm32f4xx_hal_rtc.crf --depend f412zgt6-dis\stm32f4xx_hal_rtc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x59CCAD74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_dma.o --omf_browse f412zgt6-dis\stm32f4xx_hal_dma.crf --depend f412zgt6-dis\stm32f4xx_hal_dma.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\port.o --omf_browse f412zgt6-dis\port.crf --depend f412zgt6-dis\port.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+F (../Middlewares/Third_Party/FreeRTOS/Source/timers.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\timers.o --omf_browse f412zgt6-dis\timers.crf --depend f412zgt6-dis\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x59CCAD75)
+F (../Middlewares/Third_Party/FreeRTOS/Source/tasks.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\tasks.o --omf_browse f412zgt6-dis\tasks.crf --depend f412zgt6-dis\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h)(0x59CCAD75)
+F (../Middlewares/Third_Party/FreeRTOS/Source/list.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\list.o --omf_browse f412zgt6-dis\list.crf --depend f412zgt6-dis\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+F (../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\heap_4.o --omf_browse f412zgt6-dis\heap_4.crf --depend f412zgt6-dis\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\croutine.o --omf_browse f412zgt6-dis\croutine.crf --depend f412zgt6-dis\croutine.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h)(0x59CCAD75)
+F (../Middlewares/Third_Party/FreeRTOS/Source/queue.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\queue.o --omf_browse f412zgt6-dis\queue.crf --depend f412zgt6-dis\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+F (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\cmsis_os.o --omf_browse f412zgt6-dis\cmsis_os.crf --depend f412zgt6-dis\cmsis_os.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x59CCAD75)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+F (../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\event_groups.o --omf_browse f412zgt6-dis\event_groups.crf --depend f412zgt6-dis\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x59CCAD75)
+F (../Src/main.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\main.o --omf_browse f412zgt6-dis\main.crf --depend f412zgt6-dis\main.d)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+I (..\pace_bsp\inc\pace_bsp_rtc.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_task.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_msg.h)(0x59CDA970)
+I (..\pace_common\inc\pace_log.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\pace_bsp\inc\pace_bsp_uart.h)(0x59CCAD75)
+I (..\pace_bsp\inc\pace_gpio.h)(0x59CCAD75)
+I (..\pace_bsp\inc\pace_key.h)(0x59CDAA38)
+I (..\pace_bsp\inc\pace_bsp.h)(0x59CCAD75)
+I (..\pace_bsp\inc\pace_bsp_def.h)(0x59CCAD75)
+F (../Src/freertos.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\freertos.o --omf_browse f412zgt6-dis\freertos.crf --depend f412zgt6-dis\freertos.d)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+F (../Src/stm32f4xx_it.c)(0x59CDA041)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_it.o --omf_browse f412zgt6-dis\stm32f4xx_it.crf --depend f412zgt6-dis\stm32f4xx_it.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_it.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x59CCAD75)
+F (../Src/stm32f4xx_hal_msp.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\stm32f4xx_hal_msp.o --omf_browse f412zgt6-dis\stm32f4xx_hal_msp.crf --depend f412zgt6-dis\stm32f4xx_hal_msp.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (..\Src\system_stm32f4xx.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\system_stm32f4xx.o --omf_browse f412zgt6-dis\system_stm32f4xx.crf --depend f412zgt6-dis\system_stm32f4xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (.\startup_stm32f412zx.s)(0x59CCAD75)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I..\Inc-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 515" --pd "_RTE_ SETA 1" --pd "STM32F412Zx SETA 1"--list startup_stm32f412zx.lst --xref -o f412zgt6-dis\startup_stm32f412zx.o --depend f412zgt6-dis\startup_stm32f412zx.d)
+F (..\pace_common\src\pace_task.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_task.o --omf_browse f412zgt6-dis\pace_task.crf --depend f412zgt6-dis\pace_task.d)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_msg.h)(0x59CDA970)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+F (..\pace_common\src\pace_log.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_log.o --omf_browse f412zgt6-dis\pace_log.crf --depend f412zgt6-dis\pace_log.d)
+I (..\pace_common\inc\pace_log.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\pace_bsp\inc\pace_bsp_uart.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+F (..\pace_common\src\pace_msg.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_msg.o --omf_browse f412zgt6-dis\pace_msg.crf --depend f412zgt6-dis\pace_msg.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_msg.h)(0x59CDA970)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+F (..\pace_common\src\pace_timer.c)(0x59CCE52B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_timer.o --omf_browse f412zgt6-dis\pace_timer.crf --depend f412zgt6-dis\pace_timer.d)
+I (..\pace_common\inc\pace_timer.h)(0x59CCDBC2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+F (..\pace_app\src\pace_atcmd_task.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_atcmd_task.o --omf_browse f412zgt6-dis\pace_atcmd_task.crf --depend f412zgt6-dis\pace_atcmd_task.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\pace_common\inc\pace_msg.h)(0x59CDA970)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (..\pace_app\inc\pace_atcmd_task.h)(0x59CCAD75)
+I (..\pace_hal\inc\pace_hal_rtc.h)(0x59CCAD75)
+I (..\pace_bsp\inc\pace_bsp_rtc.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (..\pace_app\src\pace_gui_task.c)(0x59CDA996)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_gui_task.o --omf_browse f412zgt6-dis\pace_gui_task.crf --depend f412zgt6-dis\pace_gui_task.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\pace_common\inc\pace_msg.h)(0x59CDA970)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_log.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\pace_bsp\inc\pace_bsp_uart.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+I (..\pace_hal\inc\pace_hal_rtc.h)(0x59CCAD75)
+I (..\pace_bsp\inc\pace_bsp_rtc.h)(0x59CCAD75)
+F (..\pace_app\src\pace_time_sys_task.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_time_sys_task.o --omf_browse f412zgt6-dis\pace_time_sys_task.crf --depend f412zgt6-dis\pace_time_sys_task.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\pace_common\inc\pace_msg.h)(0x59CDA970)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (..\pace_hal\inc\pace_hal_rtc.h)(0x59CCAD75)
+I (..\pace_bsp\inc\pace_bsp_rtc.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (..\pace_hal\src\pace_hal_rtc.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_hal_rtc.o --omf_browse f412zgt6-dis\pace_hal_rtc.crf --depend f412zgt6-dis\pace_hal_rtc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\pace_hal\inc\pace_hal_rtc.h)(0x59CCAD75)
+I (..\pace_bsp\inc\pace_bsp_rtc.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+F (..\pace_bsp\src\pace_bsp_rtc.c)(0x59CCDA27)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_bsp_rtc.o --omf_browse f412zgt6-dis\pace_bsp_rtc.crf --depend f412zgt6-dis\pace_bsp_rtc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+I (..\pace_common\inc\pace_msg.h)(0x59CDA970)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (..\pace_bsp\inc\pace_bsp_rtc.h)(0x59CCAD75)
+F (..\pace_bsp\src\pace_bsp_uart.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_bsp_uart.o --omf_browse f412zgt6-dis\pace_bsp_uart.crf --depend f412zgt6-dis\pace_bsp_uart.d)
+I (..\pace_common\inc\pace_log.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\pace_bsp\inc\pace_bsp_uart.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+I (..\pace_common\inc\pace_msg.h)(0x59CDA970)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (../Inc/FreeRTOSConfig.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+F (..\pace_bsp\src\pace_bsp.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_bsp.o --omf_browse f412zgt6-dis\pace_bsp.crf --depend f412zgt6-dis\pace_bsp.d)
+F (..\pace_bsp\src\pace_key.c)(0x59CDA833)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_key.o --omf_browse f412zgt6-dis\pace_key.crf --depend f412zgt6-dis\pace_key.d)
+I (..\pace_bsp\inc\pace_key.h)(0x59CDAA38)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\pace_bsp\inc\pace_bsp.h)(0x59CCAD75)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f412zx.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x59CCAD74)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x59CCAD74)
+I (../Inc/stm32f4xx_hal_conf.h)(0x59CCAD75)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x59CCAD74)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x59CCAD74)
+I (..\pace_bsp\inc\pace_bsp_def.h)(0x59CCAD75)
+I (../Inc/freeRTOSConfig.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_log.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\pace_bsp\inc\pace_bsp_uart.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_timer.h)(0x59CCDBC2)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x59CCAD75)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x59CCAD75)
+I (..\pace_common\inc\pace_msg.h)(0x59CDA970)
+I (..\pace_common\inc\pace_task.h)(0x59CCAD75)
+F (..\pace_bsp\src\pace_gpio.c)(0x59CCAD75)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I..\pace_app\inc -I..\pace_bsp\inc -I..\pace_common\inc -I..\pace_hal\inc --C99-I D:\Docment\STM32F412\git_source\STM32F412_Discovery_0928\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F412Zx -DUSE_HAL_DRIVER -DSTM32F412Zx --C99-o f412zgt6-dis\pace_gpio.o --omf_browse f412zgt6-dis\pace_gpio.crf --depend f412zgt6-dis\pace_gpio.d)
+I (../Inc/main.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\pace_bsp\inc\pace_gpio.h)(0x59CCAD75)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)

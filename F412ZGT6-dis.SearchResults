@@ -1,4 +1,21 @@
----- HAL_TIM_OnePulse_Init Matches (3 in 2 files) ----
-Stm32f4xx_hal_tim.c (drivers\stm32f4xx_hal_driver\src):         (++) HAL_TIM_OnePulse_Init and HAL_TIM_OnePulse_ConfigChannel: to use the Timer 
-Stm32f4xx_hal_tim.c (drivers\stm32f4xx_hal_driver\src):HAL_StatusTypeDef HAL_TIM_OnePulse_Init(TIM_HandleTypeDef *htim, uint32_t OnePulseMode)
-Stm32f4xx_hal_tim.h (drivers\stm32f4xx_hal_driver\inc):HAL_StatusTypeDef HAL_TIM_OnePulse_Init(TIM_HandleTypeDef *htim, uint32_t OnePulseMode);
+---- Tim2Handle Matches (20 in 2 files) ----
+Pace_key.c (pace_bsp\src):TIM_HandleTypeDef    Tim2Handle;
+Pace_key.c (pace_bsp\src):	        __HAL_TIM_SET_COUNTER(&Tim2Handle, DOWN_PRESS_TIM * 10);
+Pace_key.c (pace_bsp\src):	        __HAL_TIM_CLEAR_IT(&Tim2Handle, TIM_FLAG_UPDATE);
+Pace_key.c (pace_bsp\src):	        __HAL_TIM_ENABLE(&Tim2Handle);
+Pace_key.c (pace_bsp\src):            __HAL_TIM_DISABLE(&Tim2Handle);
+Pace_key.c (pace_bsp\src):            __HAL_TIM_CLEAR_IT(&Tim2Handle, TIM_FLAG_UPDATE);
+Pace_key.c (pace_bsp\src):	Tim2Handle.Instance = TIM2;
+Pace_key.c (pace_bsp\src):	Tim2Handle.Init.Period			 = 0xFFFFFFFF - 1;
+Pace_key.c (pace_bsp\src):	Tim2Handle.Init.Prescaler		 = uwPrescalerValue;//  TIM CLK 10KHZ  >>  100us
+Pace_key.c (pace_bsp\src):	Tim2Handle.Init.ClockDivision	 = 0;
+Pace_key.c (pace_bsp\src):	Tim2Handle.Init.CounterMode		 = TIM_COUNTERMODE_DOWN;
+Pace_key.c (pace_bsp\src):	Tim2Handle.Init.RepetitionCounter = 0;
+Pace_key.c (pace_bsp\src):	if (HAL_TIM_Base_Init(&Tim2Handle) != HAL_OK) {
+Pace_key.c (pace_bsp\src):  //  if (HAL_TIM_Base_Start_IT(&Tim2Handle) != HAL_OK) {
+Pace_key.c (pace_bsp\src):	__HAL_TIM_CLEAR_IT(&Tim2Handle, TIM_FLAG_UPDATE);
+Pace_key.c (pace_bsp\src):	//HAL_TIM_Base_Start_IT(&Tim2Handle);
+Pace_key.c (pace_bsp\src):	__HAL_TIM_ENABLE_IT(&Tim2Handle, TIM_IT_UPDATE);
+Pace_key.c (pace_bsp\src):	__HAL_TIM_CLEAR_IT(&Tim2Handle, TIM_FLAG_UPDATE);
+Stm32f4xx_it.c (src):extern TIM_HandleTypeDef    Tim2Handle;
+Stm32f4xx_it.c (src):	HAL_TIM_IRQHandler(&Tim2Handle);

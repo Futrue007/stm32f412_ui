@@ -34,7 +34,7 @@
 #include "queue.h"
 #include "semphr.h"
 
-//#include "pace_uart.h"
+#include "pace_log.h"
 #include "pace_hal_rtc.h"
 
 
@@ -70,7 +70,35 @@ void gui_task_func(void *paramter)
 				case MSG_ID_GUI_SET_TIME:
                     printf("GUI Task msg : MSG_ID_GUI_SET_TIME\r\n");
                     break;
-                                
+                case MSG_ID_INPUT_KEY_PRESSDOWN:
+                 //   SRQC_increment_counters(SRQCE_COUNTER_SHORT_KEY_PRESS);
+                    pace_app_printf("[Gui_task] Hard Key Down \r\n");
+                  //  gui_ecec_key_handler(msg.msg_id,0);
+                    break;
+
+                case MSG_ID_INPUT_KEY_LONGPRESS:
+                //  SRQC_increment_counters(SRQCE_COUNTER_LONG_KEY_PRESS);
+                  pace_app_printf("[Gui_task] Hard Key Long \r\n");
+                //  if (MMI_POWERON_CHARGE==mmi_get_poweron_type()) {
+				 // 	LCD_Close();//youzhenfu 20170103 for bug3882089
+                 //   shex_power_off(SHEXE_POWER_OFF_POWER_ON_FROM_CHARGE_MODE);
+                 // }
+                 // gui_ecec_key_handler(msg.msg_id,0);
+                  break;
+                case MSG_ID_INPUT_KEY_DOUBULEPRESS:
+                //  SRQC_increment_counters(SRQCE_COUNTER_LONG_KEY_PRESS);
+                  pace_app_printf("[Gui_task] Hard Key Doubule \r\n");
+                //  if (MMI_POWERON_CHARGE==mmi_get_poweron_type()) {
+				 // 	LCD_Close();//youzhenfu 20170103 for bug3882089
+                 //   shex_power_off(SHEXE_POWER_OFF_POWER_ON_FROM_CHARGE_MODE);
+                 // }
+                 // gui_ecec_key_handler(msg.msg_id,0);
+                  break;
+                case MSG_ID_INPUT_KEY_PRESSUP:
+                  pace_app_printf("[Gui_task] Hard Key up \r\n");
+                //  gui_ecec_key_handler(msg.msg_id,0);
+                 // Gui_Input_Unlock();
+                  break;
 				default:
 					break;
 			}

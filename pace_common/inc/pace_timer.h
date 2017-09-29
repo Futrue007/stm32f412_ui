@@ -9,7 +9,7 @@
 typedef enum
 {
     TIMER_ID_LCD_SLEEP,
- 
+    TIMER_ID_KEY,
     /*ADD Your Timer ID Before This Line */
     MAX_TIMERS
 }pace_timer_id;

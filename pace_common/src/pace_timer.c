@@ -29,7 +29,8 @@ static void pace_os_timer_callback( xTimerHandle xTimer )
 void Start_OS_TimerEx(pace_timer_id timerid, uint16_t delay, unsigned portBASE_TYPE uxAutoReload, TimerFuncPtr timerfuncPtr)
 {
     pace_timer *p_timer = NULL;
-    
+    signed portBASE_TYPE xHigherPriorityTaskWoken;
+
     if (timerid < MAX_TIMERS)
     {
         p_timer = &pace_timers[timerid];
@@ -44,7 +45,16 @@ void Start_OS_TimerEx(pace_timer_id timerid, uint16_t delay, unsigned portBASE_T
 
         if (p_timer->timer != NULL)
         {
-            xTimerStart(p_timer->timer, PACE_TIMER_NO_DELAY);
+            if (__get_IPSR() > 0) {
+                if (pdPASS ==  xTimerStartFromISR(p_timer->timer, &xHigherPriorityTaskWoken)) {
+                    if (xHigherPriorityTaskWoken) {
+                        taskYIELD();
+                    }
+                        
+                }
+            } else {
+                xTimerStart(p_timer->timer, PACE_TIMER_NO_DELAY);
+            }
         }
     }
 }
@@ -65,6 +75,7 @@ void Stop_OS_Timer( pace_timer_id timerid )
         if (p_timer->timer != NULL)
         {
             xTimerDelete(p_timer->timer, PACE_TIMER_NO_DELAY);
+            
             p_timer->timer = NULL;
             p_timer->timerfuncPtr = NULL;
         }

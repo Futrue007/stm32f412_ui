@@ -41,9 +41,10 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-extern RTC_HandleTypeDef RtcHandle;
+extern RTC_HandleTypeDef  RtcHandle;
 extern UART_HandleTypeDef huart2;
-extern TIM_HandleTypeDef    Tim2Handle;
+extern TIM_HandleTypeDef  Tim2Handle;
+extern TIM_HandleTypeDef  Tim3Handle;
 
 /******************************************************************************/
 /*            Cortex-M4 Processor Interruption and Exception Handlers         */ 
@@ -184,6 +185,11 @@ void EXTI0_IRQHandler(void)
 void TIM2_IRQHandler(void)
 {
 	HAL_TIM_IRQHandler(&Tim2Handle);
+}
+
+void TIM3_IRQHandler(void)
+{
+	HAL_TIM_IRQHandler(&Tim3Handle);
 }
 
 
